@@ -1,5 +1,100 @@
 {
-  "title": "Press Space or double-click to edit",
+  "title": "Optional",
   "id": 1,
-  "formatVersion": 2
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "Problem",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "NullPointerException",
+          "id": 3,
+          "ideas": {
+            "1": {
+              "title": "It's bad idea to use null as the absence ",
+              "id": 17
+            }
+          }
+        }
+      }
+    },
+    "2": {
+      "title": "How to model the absence of a value",
+      "id": 4,
+      "ideas": {
+        "1": {
+          "title": "The meaning of a null value",
+          "id": 5,
+          "ideas": {
+            "1": {
+              "title": "An error",
+              "id": 6
+            },
+            "2": {
+              "title": "A nullable value",
+              "id": 7
+            }
+          },
+          "attr": {
+            "style": {}
+          }
+        }
+      },
+      "attr": {
+        "style": {}
+      }
+    },
+    "-1": {
+      "title": "Solution",
+      "id": 8,
+      "ideas": {
+        "1": {
+          "title": "Defensive Programming",
+          "id": 9,
+          "ideas": {
+            "2": {
+              "title": "Deep doub",
+              "id": 11,
+              "attr": {
+                "style": {}
+              },
+              "ideas": {
+                "1": {
+                  "title": "Check null everywhere",
+                  "id": 10,
+                  "ideas": {
+                    "1": {
+                      "title": "Hard to read code",
+                      "id": 12
+                    },
+                    "2": {
+                      "title": "Hard to write code",
+                      "id": 13
+                    }
+                  },
+                  "attr": {
+                    "style": {}
+                  }
+                }
+              }
+            },
+            "3": {
+              "title": "Multiple exits",
+              "id": 14,
+              "attr": {
+                "style": {}
+              },
+              "ideas": {
+                "1": {
+                  "title": "Hard to maintain",
+                  "id": 16
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
