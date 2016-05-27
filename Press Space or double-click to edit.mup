@@ -114,6 +114,26 @@
           "id": 19,
           "attr": {
             "style": {}
+          },
+          "ideas": {
+            "1": {
+              "title": "Type T shows  empty is not acceptable.",
+              "id": 22
+            },
+            "2": {
+              "title": "Optional<T> tells us empty is acceptable.",
+              "id": 23
+            },
+            "3": {
+              "title": "API design",
+              "id": 24,
+              "ideas": {
+                "1": {
+                  "title": "Annotation: Nullable, NonNoullable",
+                  "id": 25
+                }
+              }
+            }
           }
         }
       }
