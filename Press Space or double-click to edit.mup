@@ -45,6 +45,10 @@
         "style": {}
       }
     },
+    "3": {
+      "title": "Cons",
+      "id": 21
+    },
     "-1": {
       "title": "Solution",
       "id": 8,
@@ -92,6 +96,24 @@
                 }
               }
             }
+          }
+        },
+        "2": {
+          "title": "Practice",
+          "id": 18,
+          "ideas": {}
+        }
+      }
+    },
+    "-2": {
+      "title": "Pro",
+      "id": 20,
+      "ideas": {
+        "1": {
+          "title": "Declaring a Optional<T> shows empty is permitted",
+          "id": 19,
+          "attr": {
+            "style": {}
           }
         }
       }
