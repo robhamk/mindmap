@@ -47,7 +47,13 @@
     },
     "3": {
       "title": "Cons",
-      "id": 21
+      "id": 21,
+      "ideas": {
+        "1": {
+          "title": "Optional is not serializable",
+          "id": 26
+        }
+      }
     },
     "-1": {
       "title": "Solution",
@@ -137,6 +143,10 @@
           }
         }
       }
+    },
+    "-3": {
+      "title": "Null",
+      "id": 27
     }
   }
 }
